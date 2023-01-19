@@ -61,7 +61,7 @@ function App() {
     return signer;  
   }, []);
 
-    // Helper function to return a Escrow Contract instance
+    // Helper function to return a Escrow Factory Contract instance
     // given a Provider/Signer
     const getEscrowFactoryInstance = useCallback((providerOrSigner) => {
       return new Contract(
